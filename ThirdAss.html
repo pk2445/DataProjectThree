@@ -1,0 +1,157 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>My Third Assignment</title>
+	</head>
+	<body>
+		<h1>Fed Policy Impact: Global Economy Shows Sings of Revival</h1>
+	</body>
+</html>
+
+<script>
+			
+			// My story talks about US, Chinese and Japanese economies.
+			
+			var USEconomy;
+			// create a box in memory of US.
+			var USUnemploymentrate = 6; 
+			console.log(USUnemploymentrate);
+			
+			console.log(USUnemploymentrate/5);
+			
+			
+			// wanted to know the average montly rate of unemployment in the US btween January to May.
+			
+			var mainCauses = ["slowing auto demand", "decline in exports", "rising interest rates", "lowering household savings", {"flood in China": "Exports can be hurt"}];
+			// these are the arrays and they are sorrounded by square bracksts and they represent "complex date type"
+			// Though are many reasons for the economic delcline, but these are the main causes
+			var USEconomy = ["enjoyed a long boom period from 2000 to 2008", "average 3.4% per year growth", {"unemployment rate was in its lowest level": "4.9% on average", "exports went up": "4.2% on average"}];
+			
+			// These are the objects and they are sourrounded by curly brackets 
+			//There were some of the features of the US economy before the declne started hitting the economy
+			
+			console.log(USEconomy);
+			
+			console.log(mainCauses);
+			console.log(mainCauses.length);
+			console.log(mainCauses[0]);
+			
+			
+			var USExportdown = 9;
+			console.log(USExportdown);
+			
+			
+			var economicStatus = "uneployment rate increases to over 8%";
+			
+			// create a box in memory og economic status, label it unemplyment rate increases.
+			//rising unemployment rate has become the major concern for global economic health.
+			console.log(economicStatus);
+			
+			var economicStatus = "slowing exports along with declining deomstic consumption blamed";
+			
+			// add more information about the economic status of US
+			console.log(economicStatus);
+			
+			var economicStatus = "FED in pressure to review it short-run interest rate policy"
+			
+			//lowering interest rate will increase money supply thus can help to push demand up, but it might fuel inflation 
+			 
+			 //If it is true then it is a very unsusal step that the Fed is going to take
+			console.log(economicStatus);
+			
+		
+			
+			console.log("emerging markets shockmarket tumble");
+			// In resposne to the sudden decline in the US economy, emerging stock markets tumbled soon after it open  
+			
+			
+		</script>
+	
+
+	
+<script>
+
+	// Function is like a recipe  with arguements as ingredigrants. 
+	function sortproblmelist(economicProblemList){
+	
+	/* These are the list of problems, whihc I beleive led to the finaical crisis of 2008
+	 *We have to think serious is revising this list becuase many people may disagree with the main causes that we have listed 
+	 */
+	var economicProblemList = [{"type": "high inflation"}, {"type": "low exports"}, {"type": "high imports"}, {"type": "high deficit"}, {"type":"low cash"}, {"type": "high inflation"}];
+	
+	
+	var selectedeconomicProblemList = [{"type": "high inflation"}, {"type": "high deficit"}, {"type": "high imports"}, {"type": "high deficit"}, {"type":"low cash"}, {"type": "high inflation"}, {"typr": "weak central bank"}];
+	var maineconomicProblemlist  = [{"type": "high infltion"}, {"type": "high deficit"}];
+	
+	console.log(economicProblemList);
+	
+	// create my list of economic problmes that can be divided into external,internal economic probmes and the probmes that 
+	//are created by both the internal and external problmes to the the economy.
+	
+	
+	
+	var externalProblems = ["cheap Chinese imports"];
+	var internalProblems = ["bad politics", "bad economic policy"];
+	
+
+	
+	
+	// create a loop that looks into the economicProblmeList one at a time, and test each item to see of it has "high inflation"
+
+ 	// Make sure that every economic problmes that we have listed here as "type" property, and be careful that if the property 
+	 // has a value "high inflation" and it to our internalProblems, orherwise add it to the "externalProblmes"
+
+	for(var i=0; i<6; i++){
+	
+	// In order to make out loop attractive, we need a "counter" that starts with at 0 because for comouter the counting 
+	// rule is different than the we leant in school... starts from 0.. that's all. And, also keep on counting the list until 
+	// it reaches to zero. i++ means everytime the loop goes through, ass 1 to our counter.
+	
+	console.log(i);
+	
+	var serioueeconomicProblems = economicProblemLists[i];
+	
+
+	console.log(serioueeconomicProblems.type);
+
+	//I have set a condition that if "type" is "high inflation" add this to object to externalProblems
+	//otherwise, add it to internalProblems.
+	// REMEMBER: the == means as the same as
+	
+	if(serioueeconomicProblems.type == "high inflation"){
+		console.log("found high inflation!");
+		externalProblems.push(serioueeconomicProblems);
+		
+	}else{
+		console.log("not high inflation");
+		internalProblems.push(serioueeconomicProblems);
+	}
+	
+	console.log(externalProblems);
+	
+	console.log(internalProblems);
+}
+	console.log("first list");
+	
+	sorteconomicProblemList(selectedeconomicProblemList);
+	sorteconomicProblemList(maineconomicProblemlist);
+	
+	
+	//This is an order to implement the sortproblmelist funnction
+	
+	comsole.log("second list");
+	
+	}
+
+
+</script>
+
+</body>
+
+</html>
+	>
+	
+
+
